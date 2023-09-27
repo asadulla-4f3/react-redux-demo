@@ -69,8 +69,8 @@ state = {
 
 ## Redux is predictable
 
-Predictable in what way? \n
-Redux is a state container\n
+Predictable in what way? <br>
+Redux is a state container<br>
 The state of the application can change.
 
 Ex: todo list app - item (pending) --> item (completed)
@@ -114,8 +114,8 @@ Later, when hooks were introduced, the `useContext + useReducer` and `context AP
 
 ## Thinks to Remember:
 
-React is a library used to build user interfaces.\n
-Redux is a library for managing state in a predictable way in JavaScript applications.\n
+React is a library used to build user interfaces.<br>
+Redux is a library for managing state in a predictable way in JavaScript applications.<br>
 React-redux is a library that provides bindings to use React and Redux together in an application.
 
 **_When should We use redux in our react application?_**
