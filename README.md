@@ -13,9 +13,11 @@ Currently, two official plugins are available:
 
 ## Redux is a predictable state container for JavaScript apps.
 
-`It is for JavaScript apps`
-`It is a state container`
-`It is predictable`
+```
+It is for JavaScript apps
+It is a state container
+It is predictable
+```
 
 ## Redux is for JavaScript applications
 
@@ -67,8 +69,8 @@ state = {
 
 ## Redux is predictable
 
-Predictable in what way?
-Redux is a state container
+Predictable in what way? \n
+Redux is a state container\n
 The state of the application can change.
 
 Ex: todo list app - item (pending) --> item (completed)
@@ -98,13 +100,13 @@ If the last child component in the component tree wants to update the state, it 
 
 The state container updates the state in a predictable manner and then sends this value to only those components that are in need of that value.
 
-### Redux 1.0 was released on August 2015.
+**Redux 1.0 was released on August 2015.**
 
 At that time there is no hooks and context API available. Hence, the props drilling issue was resolved with this Redux solution.
 
 Later, when hooks were introduced, the `useContext + useReducer` and `context API` hooks solved this problem.
 
-### React-Redux is the official Redux UI binding library for React.
+**React-Redux is the official Redux UI binding library for React.**
 
 ```
     React <---->  React-Redux <----> Redux
@@ -112,8 +114,8 @@ Later, when hooks were introduced, the `useContext + useReducer` and `context AP
 
 ## Thinks to Remember:
 
-React is a library used to build user interfaces.
-Redux is a library for managing state in a predictable way in JavaScript applications.
+React is a library used to build user interfaces.\n
+Redux is a library for managing state in a predictable way in JavaScript applications.\n
 React-redux is a library that provides bindings to use React and Redux together in an application.
 
 **_When should We use redux in our react application?_**
@@ -122,4 +124,4 @@ React-redux is a library that provides bindings to use React and Redux together 
 - The Redux store can be used in the applications which contains a couple of different routes and considerable number of components that need to share state.
 - It is not mandatory to use Redux but several companies still using the Redux library to maintain the state management.
 - May be it might not a relevant solution also. So, totally, it depends on the application requirements whether it requires the Redux store or any other methodology.
-- In a particular period of time, if you struggle to maintain the applications state, then it's time to use the Redux state management, IMO.
+- In a particular period of time, if you struggle to maintain the applications state, then it's time to use the Redux state management.
